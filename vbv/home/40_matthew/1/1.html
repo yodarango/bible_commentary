@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthew 1:1</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap");
+      /* general */
+      html {
+        font-size: 10px;
+      }
+      body {
+        overflow-x: hidden;
+        background-color: #f2f2f2;
+      }
+
+      body,
+      body * {
+        color: #474647;
+        margin: 0;
+        padding: 0;
+        line-height: 1.8;
+        font-size: 1.8rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+      }
+
+      main {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 100rem;
+      }
+      @media (max-width: 750px) {
+        main {
+          max-width: 65rem;
+        }
+      }
+      b {
+        font-size: 1.9rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+      }
+
+      i {
+        font-style: italic;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        line-height: 1;
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 1.5rem;
+        font-weight: 700;
+      }
+
+      h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        font-size: 3.5rem;
+      }
+      h3 {
+        font-size: 3rem;
+      }
+      h4 {
+        font-weight: 500;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+      h5 {
+        font-weight: 500;
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+      }
+      h6 {
+        font-weight: 500;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+
+      @media (max-width: 750px) {
+        h1 {
+          font-size: 3rem;
+        }
+        h2 {
+          font-size: 2.8rem;
+        }
+        h3 {
+          font-size: 2.6rem;
+        }
+        h4 {
+          font-size: 2.4rem;
+        }
+        h5 {
+          font-size: 2.2rem;
+        }
+        h6 {
+          font-size: 2rem;
+        }
+      }
+
+      /* colors */
+      .c-blue--d {
+        color: #809bce;
+      }
+      .c-blue--l {
+        color: #a2d2ff;
+      }
+      .c-green--d {
+        color: #08ac75;
+      }
+      .c-green--l {
+        color: #92d093;
+      }
+      .c-purple--d {
+        color: #bdb2ff;
+      }
+      .c-purple--l {
+        color: #dee2ff;
+      }
+      .c-red {
+        color: #ef798a;
+      }
+      .c-pink {
+        color: #f28db9;
+      }
+      .c-black {
+        color: #474647;
+      }
+      .c-white {
+        color: #edf6f9;
+      }
+      .c-gray {
+        color: #a8a7a0;
+      }
+      .c-brown {
+        color: #bf8276;
+      }
+      .c-orange {
+        color: #fc9b8a;
+      }
+      .c-yellow {
+        color: #fcf6bd;
+      }
+      .c-teal {
+        color: #83c5be;
+      }
+      .c-cyan {
+        color: #b8fbff;
+      }
+
+      /* backgrounds */
+      .bg-blue--d {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #809bce99;
+      }
+      .bg-blue--l {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #a2d2ff99;
+      }
+      .bg-green--d {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #08ac7599;
+      }
+      .bg-green--l {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #baf2bb99;
+      }
+      .bg-purple--d {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #bdb2ff99;
+      }
+      .bg-purple--l {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #dee2ff99;
+      }
+      .bg-red {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #ef798a99;
+      }
+      .bg-pink {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #f28db999;
+      }
+      .bg-black {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #47464799;
+      }
+      .bg-white {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        color: #edf6f999;
+      }
+      .bg-gray {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #a8a7a099;
+      }
+      .bg-brown {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #bf827699;
+      }
+      .bg-orange {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #fc9b8a99;
+      }
+      .bg-yellow {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #fcf6bd;
+      }
+      .bg-teal {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #83c5be99;
+      }
+      .bg-cyan {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #b8fbff99;
+      }
+
+      /* utilities */
+      .spacer--sm {
+        width: 100%;
+        height: 1.5rem;
+      }
+      .spacer--md {
+        width: 100%;
+        height: 2.5rem;
+      }
+      .spacer--md {
+        width: 100%;
+        height: 3rem;
+      }
+      .d-flex {
+        display: flex;
+      }
+      .d-block {
+        display: block;
+      }
+      .d-inline-flex {
+        display: inline-flex;
+      }
+      .align-items-center {
+        align-items: center;
+      }
+      .align-items-start {
+        align-items: flex-start;
+      }
+      .align-items-end {
+        align-items: flex-end;
+      }
+
+      .justify-content-center{
+        justify-content: center;
+      }
+      .justify-content-start {
+        justify-content: flex-start;
+      }
+      .justify-content-end {
+        justify-content: flex-end;
+      }
+      .justify-content-between {
+        justify-content: space-between;
+      }
+      .justify-content-around {
+        justify-content: space-around;
+      }
+      .justify-content-evenly {
+        justify-content: space-evenly;
+      }
+      .float-left {
+        float: left;
+        margin-right: 20px;
+      }
+      .p-0_5 {
+        padding: 0.5rem;
+      }
+      .p-1 {
+        padding: 1rem;
+      }
+      .p-2 {
+        padding: 2rem;
+      }
+      .p-3 {
+        padding: 3rem;
+      }
+      .px-0_5 {
+        padding: 0 0.5rem 0 0.5rem;
+      }
+      .px-1 {
+        padding: 0 1rem 0 1rem;
+      }
+      .px-2 {
+        padding: 0 2rem 0 2rem;
+      }
+      .px-3 {
+        padding: 0 3rem 0 3rem;
+      }
+      .pt-0_5 {
+        padding: 0.5rem 0 0 0;
+      }
+      .pt-1 {
+        padding: 1rem 0 0 0;
+      }
+      .pt-2 {
+        padding: 2rem 0 0 0;
+      }
+      .pt-3 {
+        padding: 3rem;
+        padding: 0 3rem 0 3rem;
+      }
+      .pb-0_5 {
+        padding: 0 0 0.5rem 0;
+      }
+      .pb-1 {
+        padding: 0 0 1rem 0;
+      }
+      .pb-2 {
+        padding: 0 0 2rem 0;
+      }
+      .pb-3 {
+        padding: 3rem;
+        padding: 0 0 3rem 0;
+      }
+      .m-0_5 {
+        margin: 0.5rem;
+      }
+      .m-1 {
+        margin: 1rem;
+      }
+      .m-2 {
+        margin: 2rem;
+      }
+      .m-3 {
+        margin: 3rem;
+      }
+      .mx-0_5 {
+        margin: 0 0.5rem 0 0.5rem;
+      }
+      .mx-1 {
+        margin: 0 1rem 0 1rem;
+      }
+      .mx-2 {
+        margin: 0 2rem 0 2rem;
+      }
+      .mx-3 {
+        margin: 0 3rem 0 3rem;
+      }
+
+      @media (max-width: 750px) {
+        .float-right {
+          float: none;
+          margin: 0 20px 0 0;
+        }
+      }
+      .float-right {
+        float: right;
+        margin-left: 20px;
+      }
+      @media (max-width: 750px) {
+        .float-right {
+          float: none;
+          margin: 0 20px 0 0;
+        }
+      }
+      .round-corners {
+        border-radius: 0.5em;
+      }
+      /* header */
+      header {
+        position: relative;
+        width: 100vw;
+        height: 30rem;
+      }
+
+      @media print {
+        header {
+          overflow: hidden;
+          border-radius: 1rem;
+        }
+      }
+
+      header img {
+        width: 100%;
+        height: 30rem;
+        overflow: hidden;
+        object-fit: cover;
+        object-position: top center;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+      }
+
+      header .smooth {
+        position: absolute;
+        height: 5rem;
+        width: 100vw;
+        bottom: 0;
+        left: 0;
+        background-color: #f2f2f2;
+        border-top-left-radius: 1.5em;
+        border-top-right-radius: 1.5em;
+        z-index: 2;
+      }
+
+      header .emoji {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        border: 2px solid #474647;
+        position: absolute;
+        z-index: 3;
+        background-color: #f2f2f2;
+        bottom: 0rem;
+        left: 5rem;
+      }
+
+      .emoji img {
+        position: relative;
+        width: 8rem;
+        height: 8rem;
+        margin: 0;
+        object-fit: contain;
+        object-position: center;
+      }
+
+   @media (print) {
+        header .emoji img{
+        width: 5rem;
+          height: 5rem;
+        }
+      }
+
+      header .smooth h6 {
+        margin-right: 5rem;
+      }
+
+      @media (max-width: 750px) {
+        header .emoji {
+          bottom: 2rem;
+          width: 7rem;
+          height: 7rem;
+          left: 3rem;
+        }
+
+        .emoji img {
+          width: 5rem;
+          height: 5rem;
+        }
+      }
+
+      @media print {
+        header,
+        header * {
+          padding: 0;
+          margin: 0;
+        }
+        header .smooth {
+          display: none;
+        }
+      }
+
+      /* references */
+
+      .references p{
+      margin-bottom: 1rem;
+      padding: .5rem 1rem;
+      background-color: #eae2d1;
+      border-radius: .5em;
+      }
+
+      .bibliography li{
+                  list-style: none;
+      }
+
+      .bibliography li::before {
+        content: '';
+        display: inline-block;
+        height: 1.5rem;
+        width: 1.5rem;
+        background-image: url(./list_decor.png);
+        background-position: center;
+        background-size: contain;
+      }
+
+      /* footer */
+      footer{
+        margin: 3rem 0 0;
+        height: 3rem;
+        background-color: #474647;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      footer span {
+      color: #f2f2f2;
+      font-weight: 600;
+      }
+    </style>
+  </head>
+  <body class="c-white">
+    <header>
+      <div class="smooth d-flex align-items-center justify-content-end pt-1">
+        <i><h6>Matthew 1:1</h6></i>
+      </div>
+      <div class="emoji d-flex align-items-center justify-content-center">
+        <img src="./emoji.png" alt="post emoji" />
+      </div>
+      <img src="./header.jpg" alt="post thumbnail" />
+    </header>
+    <main>
+      <div class="spacer--md"></div>
+      <h3 class="c-blue--d">Contextual Background</h3>
+      <p>
+        These verse introduces us to two different human parties,
+        <span class="bg-blue--l">Herod</span> and the mysterious Magi. In other
+        to understand the rest of the chapter it is important to have a good
+        understanding about these two. Let us analyze them separately:
+      </p>
+      <div class="spacer--md"></div>
+      <h3 class="c-blue--d">Herod</h3>
+      <h4>His Background</h4>
+      <p>
+        The Herodian Dynasty was a difficult one, filled with blood, incest,
+        pride, greed and more. The dynasty actually comes into historical
+        existence during the time of
+        <span class="bg-blue--l">Herod's</span>
+        grandfather, <b>Antipater I</b>. <b>Antipater I</b> was a native of
+        Idumea
+        <b
+          >[descendants of Edom <b class="bg-green--l">(Esau Gen. 25:30)</b>]</b
+        >
+        <b class="c-pink">{1}</b> who became governor of that region when Idumea
+        was conquered by <b>John Hyrcanus I</b> <b class="c-pink">{2}</b> , son
+        of <b>Simon the Hasmonean</b> of the family known as the
+        <b>Maccabees.</b> Upon the death of <b>Hyrcanus I</b> and later the
+        death of his son and heir to the throne, <b>Judah Aristobulus I</b>,
+        <b>Alexander Jannaeus</b>, brother of <b>Aristobulus</b> I, succeeded
+        him in royal power and high priesthood office, for this was the custom
+        of the Hasmoneans, that whoever occupied the royal title also fulfilled
+        the role of the High Priest. A practice contrary to the Old Testament
+        custom. Old Testament kings, <b class="bg-purple--l">Saul</b> and
+        <b class="bg-purple--l">Uzziah</b> paid a high price for attempting to
+        usurp the duties of the priest. <b>Alexander Jannaeus</b> was succeeded
+        by his younger son Judas Aristobulus II, who had ousted his older
+        brother, John Hyrcanus II, the rightful heir to the throne.
+      </p>
+      <div class="spacer--md"></div>
+      <p>
+        At this point, the son of the now deceased <b>Antipater I</b>,
+        <b>Antipater II</b> (<span class="bg-blue--l">Herod's</span> father)
+        moved to the side of the weaker Hasmonean brother,
+        <b>John Hyrcanus II</b>. When Syria was conquered by the Roman conqueror
+        <b>Pompey</b> in <b>64 B.C</b>. the Hasmonean rulership came to an end.
+        however, <b>Pompey</b> gave back the High Priesthood office to
+        <b>Hyrcanus II</b> and the rule of the new Roman province to
+        <b>Antipater II</b>. When <b>Julius Caesar</b> and <b>Pompey</b> came in
+        conflict and <b>Pompey</b> was defeated by <b>Julius Caesar</b>,
+        Hyrcanus II and Herod’s father, Antipater II, moved to the side of
+        <b>Julius Caesar</b>. <b class="bg-blue--l">Herod’s father</b>,
+        according to tradition, risked his life for Julius Caesar during a fight
+        in Egypt, and thus he was made a Roman citizen and procurator of Judea
+        <b class="c-pink">{3}</b>. Consequently, <b>Antipater II</b> appointed
+        Herod, his second son, as governor of Galilee at the age of 25 in
+        <b>47 B.C. <b class="c-pink">{4}</b>.</b>
+      </p>
+      <div class="spacer--md"></div>
+      <p>
+        The time in history which Matthew is narrating is said to be somewhere
+        around <b>5 B.C.</b>, during the reign of the first Roman Emperor
+        <b>Gaius Octavian</b>, better known as <b>Caesar Augustus</b>, adoptive
+        son of <b>Julius Caesar</b>. In <b>41 B.C</b>.
+        <b>Mark Anthony</b> convinced <b>Octavian</b> to appoint
+        <span class="bg-blue--l">Herod</span> as king over Parthian-occupied
+        Judea. <b class="c-pink">{5}</b>
+        <span class="bg-blue--l">Herod's</span> diplomatic qualities and his
+        incredible loyalty to those he served gained him the title "The Great"
+        and stablished this Idumean dynasty in history as the Herods rather than
+        the Antipatrids, after his father's and grandfather’s name
+        <b class="c-pink">{6}</b>.
+      </p>
+      <div class="spacer--md"></div>
+      <h4>The Young Herod</h4>
+      <p>
+        When Idumea,
+        <span class="bg-blue--l">Herod’s</span> birth place, was conquered by
+        the Hasmonean, <b>John Hyrcanus I</b>, the people willingly took on the
+        Jewish culture. <b class="bg-blue--l">Herod</b>, growing up peculiarly
+        close to the High Priesthood leadership, fell in love with the Jewish
+        traditions and became a Sadducee himself <b class="c-pink">{7}</b>.
+        <b class="bg-green--l">Matthew 22:15-16</b> possibly alludes to this.
+      </p>
+      <p>
+        <span class="bg-blue--l">Herod</span> had been made king over Judea, but
+        he was not conformed with being seen as king by the Judeans; he wanted
+        to be seen as a Jew and he made everything within the power of his hands
+        to be accepted as a such even marrying the High Priest’s daughter,
+        Mariamme I. Nevertheless, the Jews never quite accept him as a Jew; to
+        them he was only a half idummean, causing him to live with an
+        inferiority complex all his life.
+      </p>
+
+      <div class="spacer--md"></div>
+      <p>
+        The young <span class="bg-blue--l">Herod</span> is described by history
+        as loyal, athletic, politically skilled, ambitious, and incredibly loyal
+        to those he served.
+      </p>
+      <div class="spacer--md"></div>
+
+      <h4>The Decline of His Character</h4>
+
+      <p>
+        His quality of character remained normal, in terms of a political leader
+        at his time, until the accumulative occurrence of several events in his
+        life caused his psychological decline. Most of these events can be
+        attributed to his closest relatives, as his sister Salome who poisoned
+        his mind against Mariamme I, his favorite wife, and her two sons, ending
+        with the murder of all three of them at the account of
+        <span class="bg-blue--l">Herod</span> himself. His oldest son,
+        Antipater, also contributed to the count of events that would later
+        cause his frenzies by attempting to usurp the throne a few times.
+      </p>
+
+      <div class="spacer--md"></div>
+
+      <p>
+        Nevertheless, it is the belief of many historians that the steep decline
+        of his sanity can be attributed to one particular event: his murdering
+        of his favorite wife Mariamme I. All sanity seems to have left him
+        afterwards {8}. He became Schizophrenic; afraid that everyone was after
+        his throne and did not hesitate to get out of the way any possible
+        rivals. It was this kind of
+        <span class="bg-blue--l">Herod</span> the Magi approached when they came
+        to bow down the true King of the Jews. No wonder why such news provoked
+        him to take the measures he did.
+      </p>
+
+      <div class="spacer--md"></div>
+      <h3 class="c-blue--d">The Maggi</h3>
+      <p>
+      The bible remains silent even about the most basic details of these men,
+      therefore, most conclusion we can reach might not cross the borders of
+      mere speculation. Although they have been assigned the names of
+      <b>Gaspar, Melchior, and Balthasar</b>, it is believed that these names
+      can be traced down to Origen in the 3rd century and eventually popularized
+      during the <b>6th century</b> <b class="c-pink">{9}</b>. The mystery of
+      their names, however, is not the most intricate of the details. Their
+      origin It has been stated by many that the fact that Matthew is silent
+      about their exact place of indicates that he also was unaware of their
+      origin, since he introduces them as <b>“men from the east”</b>
+      <b class="bg-green--l">(Matthew 2:1)</b>.
+      </p>
+      
+      <div class="spacer--md"></div>
+
+      <p>
+        However, <b class="bg-purple--l">Francis W. Upham</b> has made an
+        outstanding job in deciphering the geographical area in scope as being
+        Persia. He argues that it is not that Matthew did not know the place of
+        origin of these personalities, but rather that the phrase “far east” was
+        so commonly attached to that specific region at his time that it could
+        be referenced without the danger of confusion by his audience <b class="c-pink">{10}</b>.
+      </p>
+
+       <div class="spacer--md"></div>
+
+      <p>
+        In the same way we use the terms as “South” or “West Coast” in America
+        to signal particular geographical areas of the country, so we see these
+        languages being used by the prophets of the Old Testament to reference a
+        particular area relative to the land of Israel. The four cardinal
+        directions became even more specific after the exile of Israel and
+        Judah. Assyria became the North and Babylonia became known as the East
+        <b class="bg-green--l">(Ezekiel 24:4; Isaiah 2:6; {11}</b>.
+      </p>
+
+      <div class="spacer--md"></div>
+
+      <p>
+        <b>Upham </b>argues that the presence of the word east in the greek as <b>ἀνατολῶν</b>
+        in verse one and as <b>ἀνατολῇ</b> in verse two together with its repetition
+        should change the translation to the first east to <b>“Far East”</b> instead
+        <b class="c-pink">{12}</b> and thus, since it is “Far East” and not “East”, Matthew must be
+        referencing a land further away than Babylon, and Persia seems to be the
+        most plausible option. This seems a bit of a stretch. The change in
+        grammatical case, from <b>ἀνατολῶν</b> to <b>ἀνατολῇ</b>, in the word east is due to
+        the preposition that precedes them: ἀπὸ (from) and ἐν (in) respectively.
+        Each preposition changes the grammatical case of the noun that follows
+        them, but it is hard to see how their change in grammatical case would
+        cause their meaning to change at all.
+        </p>
+
+        <div class="spacer--md"></div>
+
+        <p>
+        Nevertheless, it is true, as he
+        points out, that the phrase “...from the east” twice appearing in Isaiah
+      <b class="bg-green--l">(46:11, 41:2)</b>, means Persia, as the one “from the east” being referred
+        to is Cyrus the Persian in these two instances <b class="c-pink">{13}.</b>
+        </p>
+
+        <div class="spacer--md"></div>
+
+        <p>
+        The statement by
+        Matthew that the men went <b>“their own country by another way”</b> <b class="bg-green--l">(Matthew
+        2:12)</b> does allude to the idea that <b>Matthew</b> knew their citizenship and
+        perhaps was aware of the common route through Damascus typically
+        traveled by the Easterners visiting Judea <b>{14}</b>. That was a common route
+        for traders and Jewish proselytes who came to Jerusalem to the feasts of
+        the Jews as seen in Acts 2:9. There is, therefore, very convincing proof
+        that these men were natives from Persia or Babylon. 
+      </p>
+
+        <div class="spacer--md"></div>
+
+        <h4>The Magi in Babylon and Medo-Persia</h4>
+        <p>
+        Concluding the origin of these men much facilitates the
+        deciphering of their character. In terms of character Matthew introduces
+        these men, as Magi. That these pilgrims were Persian/ Babylonian and
+        were also Magi, resounds with the record found in the book of Daniel
+        <b class="gb-green-l">(Daniel 2:2)</b>, as he makes mention of an office at the service of
+        Nebuchadnezzar, called the Magi, using the same word as Matthew <b>"μάγους"</b>
+        (Septuagint).
+        </p>
+
+         <div class="spacer--md"></div>
+
+        <p>
+        These Magi appear in history as renown scholars of the
+        ancient world; well-learned in science, history, mathematics and the
+        occult. The word Magi is said to originate from Zoroastrianism. The
+        earliest appearance of the word may be traced back to a Zendavesta hymn,
+        used in the religion of Zoroastrianism {15}. Thus, these magi most
+        probably were a priestly order of Zoroastrianism {16}.
+        </p>
+
+           <div class="spacer--md"></div>
+        
+        <p>When Babylon
+        fell to the Mede and the Persians, their office in the kings court was
+        not ended, but rather elevated since magian <b>Zoroastrianism</b> was
+        reinstated as the state religion of the Medo-Persian empire in the 3rd
+        century B. C. One of the new privileges that came with their role was to
+        assist in the election and deposition of the Monarch <b class="c-pink">{17}</b>, thus rising
+        to prominence.
+      </p>
+
+         <div class="spacer--md"></div>
+
+        <h4>Origins of Zoroastrianism</h4>
+        <p>The character of the Maggi can
+        be better understood when taking a look into the origins of
+        <b>Zoroastrianism</b>. <b>Alexander Hislop</b>, in his work the two Babylons stated
+        that the name derives from two ancient Chaldean terms <b>"Zara,"</b> meaning
+        seed, which indeed is used in <b class="bg-green--l">Genesis 3:15</b>, and <b>"Astha"</b> or <b>"Isha"</b>
+        meaning woman. Therefore the term "Zoroaster" can be translated as <b>"the
+        seed of the woman."</b> <b class="c-pink">{18}</b>
+        </p>
+
+          <div class="spacer--md"></div>
+
+        </p>
+
+        <div class="spacer--md"></div>
+
+        <p>
+        He also claims that this character referred to
+        as <b>Zoroaster</b> was none the less than Nimrod (Genesis 10:8) {19}, who is
+        attributed the invention of the magic arts and the first one to practice
+        a deep study of the heavenly bodies and the occult. A theory that does
+        not sound all to wild when taking into consideration that it was Nimrod
+        that first tried to reach for heavens (Genesis 10:9-10; 11:1-9), taking
+        after the nature of his father the devil who attempted to do the same
+        thing <b class="bg-green--l">(Isaiah 14:12-15)</b>.
+      </p>
+        
+     <div class="spacer--md"></div>
+
+      <p>
+        It is not debate among most students of the
+        Bible that Nimrod is an antitype of the Antichrist. Thus, if he indeed
+        took the title of Zoroaster, “The seed of the woman”, he did it in aim
+        to set himself as the redeemer, thus attempting to usurp the role of the
+        True Seed of the woman, our Lord Jesus Christ.
+      </p>
+
+     <div class="spacer--md"></div>
+
+      </p>
+        This theory accumulates
+        more credibility when taking into consideration that Babylon was
+        stablished by Nimrod himself <b class="bg-green--l">(Genesis 10:9)</b>. Is not too hard, therefore,
+        to reconcile the idea that the "μάγους" (magi) from Daniel were priests
+        from <b>Zoroastrianism</b> and that by the time of Nebuchadnezzar their
+        priestly order had been already well established, for it has also been
+        stated by historians that it was Zoroaster who stablished the Chaldean
+        Maggi <b class="c-pink">{20}</b>. Although many other historians find the first appearances of
+        Zoroastrianism in Persia and Mede, it is more probable this office had
+        its beginnings in among the Chaldees in Babylon and one way or another
+        might have spread to the surrounding regions as people were sparse from
+        Babylon (Genesis 11:9)
+        </p>
+
+        <div class="spacer--md"></div>
+
+        <p>
+        <h4>The Magi and Daniel</h4>
+        
+        <p>
+        Taking into consideration
+        that Zoroastrianism did indeed have its beginning in Nimrod, and that
+        him, knowing the promise of a Redeeming Seed from the woman (Genesis 15
+        3:15), a revelation no doubt passed down from Adam to Noah and from Noah
+        to its descendants, he choose to take that role upon himself.
+        </p>
+        <div class="spacer--md"></div>
+
+        <p>
+        Hislop
+        goes on to demonstrate how upon Nimrods death he became deified into
+        Orion and placed among the stars. {21} In these way he became the seed
+        and the star in Zoroastrianism. {22}
+        </p>
+
+        <div class="spacer--md"></div>
+
+        <p>
+        <b>Daniel</b> came in contact with the
+        Magi when he was introduced to the court of <b>Nebuchadnezzar</b> <b class="bg-green--l">(Daniel
+        1:3-6)</b>. Although the Bible gives us no information on the relationship
+        between Daniel and the Magi, from his godly and pleasant character, it
+        is hard to doubt that he was able to establish a friendly and close
+        relationship with these learned men that he had to interact with quite
+        often. After all, he had also saved their very lives. This elite group
+        of scholars in Babylon seems to have been divided into 4 groups: the
+        magicians, the astrologers, the sorcerers, and the Chaldeans <b class="bg-green--l">(Daniel
+        2:2)</b>, however, it is clear that the group in its entirety could be
+        addressed as “the wise man” <b class="bg-green--l">(Daniel 2:48)</b>. They were divided perhaps
+        because each subdivision had a particular area of study. The role of
+        Daniel In the court of Babylon passed from being a student to being the
+        ruler of the wise man, which implied being their leader not only in
+        governance but in teaching, since it was their role of these man to be
+        in continuous study ad pursuit of wisdom. They were the research team of
+        the kingdom. The NASA of Babylon. <b class="bg-green--l">(Daniel 2:48)</b>. No doubt these wise men
+        grew in admiration of their leader and his great God- given wisdom. One
+        may ask, if he had such great relationship and influence among them, how
+        is it they set him up into the Lion’s den? But it must be noted that it
+        was not this elite group of scholars who set him up, but a group known
+        as the administrators and the satraps. A group of vile, greedy, power
+        hungry men with no regard for Daniel nor his God <b class="bg-green--l">(Daniel 6:4-5)</b>. It is
+        quite probable, therefore, that Daniel made use of every opportunity to
+        witness to those around him, and specially those under his care, about
+        his great God. 
+        </p>
+
+        <div class="spacer--md"></div>
+
+        <p>
+        As he became more acquainted with their religion, he used
+        common ground to introduce them to the the true religion. These
+        Zoroastrian priests worshiped a seed who would one day redeem humanity
+        from evil <b class="c-pink">{23}</b>. Daniel knew the True Seed. They claimed one of the ways
+        these seed represented himself was through a star. Daniel knew the True
+        Star who would rise out of Jacob <b class="bg-green--l">(Numbers 24:17)</b>. It is very easily how
+        16 Daniel could find common ground with these man to introduce them to
+        his God. A method that the apostle Paul himself used <b class="bg-green--l">(Acts 17:16-32)</b>.
+        </p>
+
+        <div class="spacer--md"></div>
+
+        <p>
+        Although we have seen that there was a group among the wise men known as
+        the sorcerers and other as the enchanters, it is known from history, as
+        we have seen, that the Zoroastrian priests were the first ones to
+        practice it, as they had received it from Zoroaster. Sorcery in its
+        wildest term is the science of the occult <b class="c-pink">{24}</b> therefore, we can
+        conclude that the Magi were not only of priestly and royal character,
+        but also plain sorcerers. We can bolster this claim by recalling Simon
+        the sorcerer <b class="bg-green--l">(Acts 8:9)</b> who is described by Luke using the same term.
+        </p>
+
+        <div class="spacer--md"></div>
+
+ <h3 class="c-blue--d">Spiritual Application</h3> 
+
+        <p>
+       Jesus was born in Bethlehem of Judea, a small town
+        located less than two hours away from Jerusalem at a walking speed heart
+        of Judea where you could find the temple, a group of elite Law Scholars
+        called the Scribes, another group of doctorate level theologians called
+        the pharisees and yet another group of political-religious leaders known
+        as as the Sadducees, who also occupied the High Priesthood.
+        </p>
+
+        <div class="spacer--md"></div>
+
+        <p>
+        The temple
+        was the hope and pride of Judea <b class="bg-green--l">(Mark 13:1)</b> and and these groups of
+        individuals its boast. Jerusalem was where every sinner ran to obtain
+        forgiveness from God; where those who had not been born in a Jewish
+        family came to know God and about God <b class="bg-green--l">(Arts 8:27)</b> the temple was where
+        you dedicated your children <b class="bg-green--l">(Luke 2:22)</b> and you came to be pronounced
+        healed (Mark 1:44); where you came to hear the right theology and where
+        you exercised the right worship <b class="bg-green--l">(John 4:20)</b>. To put it in modern terms,
+        in Jerusalem you had the most educated, eloquent, and popular preachers.
+        That's where you had the most well known Torah pop singers.
+        </p>
+
+        <div class="spacer--md"></div>
+
+        <p>
+        Nonetheless,
+        in exception to the close relatives and friends of Mary and Joseph,
+        nobody had a clue of what was occurring. God had come into flesh <b class="bg-green--l">(John
+        1:14)</b> and none of the scholars, theologians, priests or common temple
+        folks knew about it. Herod, the biggest charity giver among the Jews and
+        a Sadducee himself, who out of his own pocket had paid to beautify the
+        temple, was totally ignorant about it. Yet, here we have this group of
+        Magi, from the darkest of Moral and Spiritual Backgrounds, who traveled
+        a distance not less than 550 miles to get to Jerusalem <b class="c-pink">{25}</b>. A journey
+        that could have taken anywhere 17 from 6 weeks <b class="c-pink">{26}</b> to four months as it
+        took Ezra <b class="bg-green--l">(Ezra 7:9)</b>. it was to them that it was revealed what was
+        happening.
+        </p>
+
+        <div class="spacer--md"></div>
+
+        <p>
+        What a shock! When the Messiah ever came it was the scholars,
+        the priests, the theologians, and the prestigious who were supposed to
+        be the first ones to find out <b class="bg-green--l">(verse 4)</b> and to believe in Him <b class="bg-green--l">(Jon
+        7:47)</b>, not a group of pagan sinners and vile sorcerers.
+        </p>
+
+        <div class="spacer--md"></div>
+
+        <p>
+        Oh, if God ever
+        revealed His truth it had to be to the preacher with a doctorate in
+        Theology or the one popular with the crowds. The one who gets featured
+        in the newest pop news and gets invited to the trendy talk shows of the
+        moment. If God had truth to reveal it had to be to the churchy
+        individual who has had a perfect church attendance for over 20, 30 or 40
+        years. The one who was born on Saturday and came to their first church
+        service on Sunday. If God had truth to reveal it had to be to the most
+        talented, best looking musician, Christian pop singer who can fill a
+        football arena or attract the whole town to the church. The kind of
+        musician/ singer that if he does not show up at church, service nobody
+        makes it to the altar. Surely that is the kind of crowd that God wanted
+        to work with. The group He just has to use because oh my, they are just
+        too talented and qualified to pass them by.
+        </p>
+
+         <div class="spacer--md"></div>
+
+      <p>
+        But this group of sinners?
+        How can He use a drug addict living under a bridge that does not even
+        know which is the first book of the bible? How can that prostitute on
+        the streets who has been abused, rejected, and despised and know more
+        beds than a hotel maid ever be of any use to Him? How can that dirty
+        drunkard who has destroyed his family, reputation life ever step into
+        God’s plan? How can God use a drug dealer, a murderer, or a crooked
+        business man? Surely He was not about to pass over a group of such
+        refined churched folks for a group no-gooders? But He did.
+        </p>
+
+        <div class="spacer--md"></div>
+
+        <p>
+        This verses
+        teaches us that God seeks the hungry not the popular, intelligent,
+        talented or influential. You are not necessary to God’s work my friend.
+        You can be replaced. God can indeed pass you over. If you don’t want to
+        do the will of God; if you refuse to allow Him to work in your life and
+        change your heart; If you refuse to walk after His plan for your life
+        because you just cannot let go of certain things in your life, do not
+        worry. He’s already arranging everything in the life of a 7 year-old kid
+        who’s kicking needles of meth in the streets at midnight because he was
+        abandoned by his own mother so that he will come to His feet, repent,
+        get clean and take your place. He’s already got a lady in a 18 dark
+        room, crying to sleep every night and thinking about ending her life
+        because she thinks there is mo more hope or meaning for her to come and
+        do the work you think you are too good for to do.
+        </p>
+
+        <div class="spacer--md"></div>
+        <p>
+        He is already got
+        someone who might be in the worst spiritual state but that is wiling to
+        abandon the sins you are not.
+        </p>
+
+       <div class="spacer--md"></div>
+
+<p>
+        We should not be amazed that God used a
+        group of sorcerers instead of the scribes, the pharisees, and the
+        sadducees. After all, these group of religious men were also sorcerers,
+        only that of a different kind, for the sin of disobedience is like the
+        sin of witchcraft <b class="bg-green--l">(1 Samuel 12:23)</b>. Do not be surprised if god passes
+        you over by the new convert at church who is willing to live the holy
+        life you are not.
+        </p>
+         <div class="spacer--md"></div>
+
+         <p>
+        What God was really doing was replacing one sorcerer
+        by another sorcerer. Only that one group of sorcerers was willing to
+        acknowledge their low sinful state, while the other group thought
+        themselves perfect.
+        </p>
+          <div class="spacer--md"></div>
+
+          <p>
+        We cannot be of any use of God until we acknowledge
+        that we are nothing but hopeless sinners hanging on the strings of His
+        grace and Mercy and are willing to walk in His truth and will.
+        </p>
+
+        <div class="spacer--md"></div>
+
+
+        <h3 class="c-blue--d">References </h3>
+        
+        <div class="references">
+        <p>
+          <b class="c-pink">{1}</b> Chilton, Bruce. The Herods: Murder, Politics, and the Art
+        of Succession. United States: Fortress Press, 2021. P.16 
+        </p>
+
+        <p>
+        <b class="c-pink">{2}</b>  Vermes,
+        Geza. The True Herod. London: T&T Clark 2014, page 29
+        </p>
+
+        <p><b class="c-pink">{3}</b>  Tenney 2010
+        (Volume 3)
+        </p>
+        <p>
+        <b class="c-pink">{4}</b> Tenney 2010 (Volume 3); Vermes 2014, 50
+        </p>
+        <p>
+         <b class="c-pink">{5}</b> Vermes, 2014, page 55 
+      </p>
+      <p>
+        <b class="c-pink">{6}</b> Vermes, 2014, page 50 
+        </p>
+        <p>
+        <b class="c-pink">{7}</b>  D.H. Williams. Matthew. The
+        Church’s Bible. Grand Rapids, Michigan: Eerdmans, 2018. 
+        </p>
+        <p>
+        <b class="c-pink">{8}</b> Vermes,
+        2014, page 60 
+        </p>
+        <p>
+        <b class="c-pink">{9}</b> Kidger, Professor Mark., Kidger, Mark Richard. The
+        Star of Bethlehem: An Astronomer's View. United Kingdom: Princeton
+        University Press, 1999. 19 
+        </p>
+        <p>
+        <b class="c-pink">{10}</b> Upham, Francis William. The Wise Men:
+        who They Were and how They Came to Jerusalem. United States: Eaton &
+        Mains, 1901. page 54 
+        </p>
+        <p>
+        <b class="c-pink">{11}</b>  Upham, 1901, page 40 
+        </p>
+        <p>
+        <b class="c-pink">{12}</b>  Upham, 1901, page 23
+        </p>
+      
+        <p>
+        <b class="c-pink">{13}</b>  Upham, 1901, page 57 
+        </p>
+        <p>
+        <b class="c-pink">{14}</b>  Upham, 1901, page 20 
+        </p>
+        <p>
+        <b class="c-pink">{15}</b>  Upham, 1901,
+        page 97 
+      </p>
+      <p>
+        <b class="c-pink">{16}</b>  Kidger, 2017, P. 176
+        </p>
+        <p><b class="c-pink">{7}</b>  Tenney 2010 (Volume 4)
+        </p>
+        <p><b class="c-pink">{18}</b> 
+        Hislop, Alexander. The Two Babylons. United States: Cosimo,
+        Incorporated, 2009. P. 58 
+        </p>
+        <p>
+        <b class="c-pink">{9}</b>  Hislop 2009, P. 67 
+        </p>
+        <p>
+        <b class="c-pink">{20}</b>  Hislop, 2009 P.
+        223 
+        </p>
+        <p><b class="c-pink">{21}</b>  Hislop, 2009 P. 52</p>
+        <p><b class="c-pink">{22}</b>  Hislop, 2009 P. 55 </p>
+        
+        <p><b class="c-pink">{23}</b>  Hislop, 2009 P.
+        66 </p> 
+        <p><b class="c-pink">{24}</b>  Tenney 2010 (Volume 4)</p> 
+        <p><b class="c-pink">{25}</b>  Kidger, 2017, P. 29.</p> 
+        <p><b class="c-pink">{26}</b>  Kidger, 2017, P. 29.</p> 
+        </div>
+
+        <div class="spacer--md"></div>
+
+        <h3 class="c-blue--d">Bibliography</h3>
+        <ul class="bibliography">
+          <li>
+         1. Chilton, Bruce. The Herods: Murder,
+        Politics, and the Art of Succession. United States: Fortress Press,
+        2021.</li>
+        <li> 2. Vermes, Geza. The True Herod. London: T&T Clark 2014 </li> <li>3. D.H.
+        Williams. Matthew. The Church’s Bible. Grand Rapids, Michigan: Eerdmans,
+        2018.</li> <li>4. Kidger, Professor Mark., Kidger, Mark Richard. The Star of
+        Bethlehem: An Astronomer's View. United Kingdom: Princeton University
+        Press, 1999. 1 10 </li><li>5. Upham, Francis William. The Wise Men: who They Were
+        and how They Came to Jerusalem. United States: Eaton & Mains, 1901.</li><li> 6.
+        Hislop, Alexander. The Two Babylons. United States: Cosimo,
+        Incorporated, 2009. P. 58</li>
+        </ul>
+      </p>
+    </main>
+    <footer><span>2 Timothy 2:15</span></footer>
+  </body>
+</html>
