@@ -1,0 +1,645 @@
+{
+  "create h1 dark blue title": {
+    "prefix": "h1blued",
+    "body": ["<h1 class=\"c-blue--d\">$1</h1>"],
+    "description": "Creates title"
+  },
+  "create h1 light blue title": {
+    "prefix": "h1bluel",
+    "body": ["<h1 class=\"c-blue--l\">$1</h1>"],
+    "description": "Creates title"
+  },
+  "create  h1 dark green title": {
+    "prefix": "h1greend",
+    "body": ["<h1 class=\"c-green--d\">$1</h1>"],
+    "description": "Creates title"
+  },
+  "create  h1 light green title": {
+    "prefix": "h1greenl",
+    "body": ["<h1 class=\"c-green--l\">$1</h1>"],
+    "description": "Creates title"
+  },
+  "create  h1 dark purple title": {
+    "prefix": "h1purpled",
+    "body": ["<h1 class=\"c-purple--d\">$1</h1>"],
+    "description": "Creates title"
+  },
+  "create  h1 light purple title": {
+    "prefix": "h1purplel",
+    "body": ["<h1 class=\"c-purple--l\">$1</h1>"],
+    "description": "Creates title"
+  },
+  "create h1  pink title": {
+    "prefix": "h1pink",
+    "body": ["<h1 class=\"c-pink\">$1</h1>"],
+    "description": "Creates title"
+  },
+  "create  h1 red title": {
+    "prefix": "h1red",
+    "body": ["<h1 class=\"c-red\">$1</h1>"],
+    "description": "Creates title"
+  },
+  "create  h1 white title": {
+    "prefix": "h1white",
+    "body": ["<h1 class=\"c-white\">$1</h1>"],
+    "description": "Creates title"
+  },
+  "create  h1 gray title": {
+    "prefix": "h1gray",
+    "body": ["<h1 class=\"c-gray\">$1</h1>"],
+    "description": "Creates title"
+  },
+  "create h1  brown title": {
+    "prefix": "h1brown",
+    "body": ["<h1 class=\"c-brown\">$1</h1>"],
+    "description": "Creates title"
+  },
+  "create  h1 orange title": {
+    "prefix": "h1orange",
+    "body": ["<h1 class=\"c-orange\">$1</h1>"],
+    "description": "Creates title"
+  },
+  "create  h1 yellow title": {
+    "prefix": "h1yellow",
+    "body": ["<h1 class=\"c-yellow\">$1</h1>"],
+    "description": "Creates title"
+  },
+  "create  h1 teal title": {
+    "prefix": "h1teal",
+    "body": ["<h1 class=\"c-teal\">$1</h1>"],
+    "description": "Creates title"
+  },
+  "create  h1 cyan title": {
+    "prefix": "h1cyan",
+    "body": ["<h1 class=\"c-cyan\">$1</h1>"],
+    "description": "Creates title"
+  },
+  "create h2 dark blue title": {
+    "prefix": "h2blued",
+    "body": ["<h2 class=\"c-blue--d\">$1</h2>"],
+    "description": "Creates title"
+  },
+  "create h2 light blue title": {
+    "prefix": "h2bluel",
+    "body": ["<h2 class=\"c-blue--l\">$1</h2>"],
+    "description": "Creates title"
+  },
+  "create  h2 dark green title": {
+    "prefix": "h2greend",
+    "body": ["<h2 class=\"c-green--d\">$1</h2>"],
+    "description": "Creates title"
+  },
+  "create  h2 light green title": {
+    "prefix": "h2greenl",
+    "body": ["<h2 class=\"c-green--l\">$1</h2>"],
+    "description": "Creates title"
+  },
+  "create  h2 dark purple title": {
+    "prefix": "h2purpled",
+    "body": ["<h2 class=\"c-purple--d\">$1</h2>"],
+    "description": "Creates title"
+  },
+  "create  h2 light purple title": {
+    "prefix": "h2purplel",
+    "body": ["<h2 class=\"c-purple--l\">$1</h2>"],
+    "description": "Creates title"
+  },
+  "create h2  pink title": {
+    "prefix": "h2pink",
+    "body": ["<h2 class=\"c-pink\">$1</h2>"],
+    "description": "Creates title"
+  },
+  "create  h2 red title": {
+    "prefix": "h2red",
+    "body": ["<h2 class=\"c-red\">$1</h2>"],
+    "description": "Creates title"
+  },
+  "create  h2 white title": {
+    "prefix": "h2white",
+    "body": ["<h2 class=\"c-white\">$1</h2>"],
+    "description": "Creates title"
+  },
+  "create  h2 gray title": {
+    "prefix": "h2gray",
+    "body": ["<h2 class=\"c-gray\">$1</h2>"],
+    "description": "Creates title"
+  },
+  "create h2  brown title": {
+    "prefix": "h2brown",
+    "body": ["<h2 class=\"c-brown\">$1</h2>"],
+    "description": "Creates title"
+  },
+  "create  h2 orange title": {
+    "prefix": "h2orange",
+    "body": ["<h2 class=\"c-orange\">$1</h2>"],
+    "description": "Creates title"
+  },
+  "create  h2 yellow title": {
+    "prefix": "h2yellow",
+    "body": ["<h2 class=\"c-yellow\">$1</h2>"],
+    "description": "Creates title"
+  },
+  "create  h2 teal title": {
+    "prefix": "h2teal",
+    "body": ["<h2 class=\"c-teal\">$1</h2>"],
+    "description": "Creates title"
+  },
+  "create  h2 cyan title": {
+    "prefix": "h2cyan",
+    "body": ["<h2 class=\"c-cyan\">$1</h2>"],
+    "description": "Creates title"
+  },
+  "create h3 dark blue title": {
+    "prefix": "h3blued",
+    "body": ["<h3 class=\"c-blue--d\">$1</h3>"],
+    "description": "Creates title"
+  },
+  "create h3 light blue title": {
+    "prefix": "h3bluel",
+    "body": ["<h3 class=\"c-blue--l\">$1</h3>"],
+    "description": "Creates title"
+  },
+  "create h3 dark green title": {
+    "prefix": "h3greend",
+    "body": ["<h3 class=\"c-green--d\">$1</h3>"],
+    "description": "Creates title"
+  },
+  "create h3 light green title": {
+    "prefix": "h3greenl",
+    "body": ["<h3 class=\"c-green--l\">$1</h3>"],
+    "description": "Creates title"
+  },
+  "create h3  dark purple title": {
+    "prefix": "h3purpled",
+    "body": ["<h3 class=\"c-purple--d\">$1</h3>"],
+    "description": "Creates title"
+  },
+  "create h3 light purple title": {
+    "prefix": "h3purplel",
+    "body": ["<h3 class=\"c-purple--l\">$1</h3>"],
+    "description": "Creates title"
+  },
+  "create h3  pink title": {
+    "prefix": "h3pink",
+    "body": ["<h3 class=\"c-pink\">$1</h3>"],
+    "description": "Creates title"
+  },
+  "create  h3 red title": {
+    "prefix": "h3red",
+    "body": ["<h3 class=\"c-red\">$1</h3>"],
+    "description": "Creates title"
+  },
+  "create  h3 white title": {
+    "prefix": "h3white",
+    "body": ["<h3 class=\"c-white\">$1</h3>"],
+    "description": "Creates title"
+  },
+  "create h3  gray title": {
+    "prefix": "h3gray",
+    "body": ["<h3 class=\"c-gray\">$1</h3>"],
+    "description": "Creates title"
+  },
+  "create h3  brown title": {
+    "prefix": "h3brown",
+    "body": ["<h3 class=\"c-brown\">$1</h3>"],
+    "description": "Creates title"
+  },
+  "create h3  orange title": {
+    "prefix": "h3orange",
+    "body": ["<h3 class=\"c-orange\">$1</h3>"],
+    "description": "Creates title"
+  },
+  "create h3  yellow title": {
+    "prefix": "h3yellow",
+    "body": ["<h3 class=\"c-yellow\">$1</h3>"],
+    "description": "Creates title"
+  },
+  "create h3  teal title": {
+    "prefix": "h3teal",
+    "body": ["<h3 class=\"c-teal\">$1</h3>"],
+    "description": "Creates title"
+  },
+  "create  h3 cyan title": {
+    "prefix": "h3cyan",
+    "body": ["<h3 class=\"c-cyan\">$1</h3>"],
+    "description": "Creates title"
+  },
+  "create h4 dark blue title": {
+    "prefix": "h4blued",
+    "body": ["<h4 class=\"c-blue--d\">$1</h4>"],
+    "description": "Creates title"
+  },
+  "create h4 light blue title": {
+    "prefix": "h4bluel",
+    "body": ["<h4 class=\"c-blue--l\">$1</h4>"],
+    "description": "Creates title"
+  },
+  "create  h4 dark green title": {
+    "prefix": "h4greend",
+    "body": ["<h4 class=\"c-green--d\">$1</h4>"],
+    "description": "Creates title"
+  },
+  "create  h4 light green title": {
+    "prefix": "h4greenl",
+    "body": ["<h4 class=\"c-green--l\">$1</h4>"],
+    "description": "Creates title"
+  },
+  "create  h4 dark purple title": {
+    "prefix": "h4purpled",
+    "body": ["<h4 class=\"c-purple--d\">$1</h4>"],
+    "description": "Creates title"
+  },
+  "create  h4 light purple title": {
+    "prefix": "h4purplel",
+    "body": ["<h4 class=\"c-purple--l\">$1</h4>"],
+    "description": "Creates title"
+  },
+  "create h4  pink title": {
+    "prefix": "h4pink",
+    "body": ["<h4 class=\"c-pink\">$1</h4>"],
+    "description": "Creates title"
+  },
+  "create  h4 red title": {
+    "prefix": "h4red",
+    "body": ["<h4 class=\"c-red\">$1</h4>"],
+    "description": "Creates title"
+  },
+  "create  h4 white title": {
+    "prefix": "h4white",
+    "body": ["<h4 class=\"c-white\">$1</h4>"],
+    "description": "Creates title"
+  },
+  "create  h4 gray title": {
+    "prefix": "h4gray",
+    "body": ["<h4 class=\"c-gray\">$1</h4>"],
+    "description": "Creates title"
+  },
+  "create h4  brown title": {
+    "prefix": "h4brown",
+    "body": ["<h4 class=\"c-brown\">$1</h4>"],
+    "description": "Creates title"
+  },
+  "create  h4 orange title": {
+    "prefix": "h4orange",
+    "body": ["<h4 class=\"c-orange\">$1</h4>"],
+    "description": "Creates title"
+  },
+  "create  h4 yellow title": {
+    "prefix": "h4yellow",
+    "body": ["<h4 class=\"c-yellow\">$1</h4>"],
+    "description": "Creates title"
+  },
+  "create  h4 teal title": {
+    "prefix": "h4teal",
+    "body": ["<h4 class=\"c-teal\">$1</h4>"],
+    "description": "Creates title"
+  },
+  "create  h4 cyan title": {
+    "prefix": "h4cyan",
+    "body": ["<h4 class=\"c-cyan\">$1</h4>"],
+    "description": "Creates title"
+  },
+  "create h5 dark blue title": {
+    "prefix": "h5blued",
+    "body": ["<h5 class=\"c-blue--d\">$1</h5>"],
+    "description": "Creates title"
+  },
+  "create h5 light blue title": {
+    "prefix": "h5bluel",
+    "body": ["<h5 class=\"c-blue--l\">$1</h5>"],
+    "description": "Creates title"
+  },
+  "create  h5 dark green title": {
+    "prefix": "h5greend",
+    "body": ["<h5 class=\"c-green--d\">$1</h5>"],
+    "description": "Creates title"
+  },
+  "create  h5 light green title": {
+    "prefix": "h5greenl",
+    "body": ["<h5 class=\"c-green--l\">$1</h5>"],
+    "description": "Creates title"
+  },
+  "create  h5 dark purple title": {
+    "prefix": "h5purpled",
+    "body": ["<h5 class=\"c-purple--d\">$1</h5>"],
+    "description": "Creates title"
+  },
+  "create  h5 light purple title": {
+    "prefix": "h5purplel",
+    "body": ["<h5 class=\"c-purple--l\">$1</h5>"],
+    "description": "Creates title"
+  },
+  "create h5  pink title": {
+    "prefix": "h5pink",
+    "body": ["<h5 class=\"c-pink\">$1</h5>"],
+    "description": "Creates title"
+  },
+  "create  h5 red title": {
+    "prefix": "h5red",
+    "body": ["<h5 class=\"c-red\">$1</h5>"],
+    "description": "Creates title"
+  },
+  "create  h5 white title": {
+    "prefix": "h5white",
+    "body": ["<h5 class=\"c-white\">$1</h5>"],
+    "description": "Creates title"
+  },
+  "create  h5 gray title": {
+    "prefix": "h5gray",
+    "body": ["<h5 class=\"c-gray\">$1</h5>"],
+    "description": "Creates title"
+  },
+  "create h5  brown title": {
+    "prefix": "h5brown",
+    "body": ["<h5 class=\"c-brown\">$1</h5>"],
+    "description": "Creates title"
+  },
+  "create  h5 orange title": {
+    "prefix": "h5orange",
+    "body": ["<h5 class=\"c-orange\">$1</h5>"],
+    "description": "Creates title"
+  },
+  "create  h5 yellow title": {
+    "prefix": "h5yellow",
+    "body": ["<h5 class=\"c-yellow\">$1</h5>"],
+    "description": "Creates title"
+  },
+  "create  h5 teal title": {
+    "prefix": "h5teal",
+    "body": ["<h5 class=\"c-teal\">$1</h5>"],
+    "description": "Creates title"
+  },
+  "create  h5 cyan title": {
+    "prefix": "h5cyan",
+    "body": ["<h5 class=\"c-cyan\">$1</h5>"],
+    "description": "Creates title"
+  },
+  "create h6 dark blue title": {
+    "prefix": "h6blued",
+    "body": ["<h6 class=\"c-blue--d\">$1</h6>"],
+    "description": "Creates title"
+  },
+  "create h6 light blue title": {
+    "prefix": "h6bluel",
+    "body": ["<h6 class=\"c-blue--l\">$1</h6>"],
+    "description": "Creates title"
+  },
+  "create h6 dark green title": {
+    "prefix": "h6greend",
+    "body": ["<h6 class=\"c-green--d\">$1</h6>"],
+    "description": "Creates title"
+  },
+  "create h6 light green title": {
+    "prefix": "h6greenl",
+    "body": ["<h6 class=\"c-green--l\">$1</h6>"],
+    "description": "Creates title"
+  },
+  "create h6  dark purple title": {
+    "prefix": "h6purpled",
+    "body": ["<h6 class=\"c-purple--d\">$1</h6>"],
+    "description": "Creates title"
+  },
+  "create h6 light purple title": {
+    "prefix": "h6purplel",
+    "body": ["<h6 class=\"c-purple--l\">$1</h6>"],
+    "description": "Creates title"
+  },
+  "create h6  pink title": {
+    "prefix": "h6pink",
+    "body": ["<h6 class=\"c-pink\">$1</h6>"],
+    "description": "Creates title"
+  },
+  "create  h6 red title": {
+    "prefix": "h6red",
+    "body": ["<h6 class=\"c-red\">$1</h6>"],
+    "description": "Creates title"
+  },
+  "create  h6 white title": {
+    "prefix": "h6white",
+    "body": ["<h6 class=\"c-white\">$1</h6>"],
+    "description": "Creates title"
+  },
+  "create h6  gray title": {
+    "prefix": "h6gray",
+    "body": ["<h6 class=\"c-gray\">$1</h6>"],
+    "description": "Creates title"
+  },
+  "create h6  brown title": {
+    "prefix": "h6brown",
+    "body": ["<h6 class=\"c-brown\">$1</h6>"],
+    "description": "Creates title"
+  },
+  "create h6  orange title": {
+    "prefix": "h6orange",
+    "body": ["<h6 class=\"c-orange\">$1</h6>"],
+    "description": "Creates title"
+  },
+  "create h6  yellow title": {
+    "prefix": "h6yellow",
+    "body": ["<h6 class=\"c-yellow\">$1</h6>"],
+    "description": "Creates title"
+  },
+  "create h6  teal title": {
+    "prefix": "h6teal",
+    "body": ["<h6 class=\"c-teal\">$1</h6>"],
+    "description": "Creates title"
+  },
+  "create  h6 cyan title": {
+    "prefix": "h6cyan",
+    "body": ["<h6 class=\"c-cyan\">$1</h6>"],
+    "description": "Creates title"
+  },
+  "create b dark blue title": {
+    "prefix": "bblued",
+    "body": ["<b class=\"c-blue--d\">$1</b>"],
+    "description": "Creates title"
+  },
+  "create b light blue title": {
+    "prefix": "bbluel",
+    "body": ["<b class=\"c-blue--l\">$1</b>"],
+    "description": "Creates title"
+  },
+  "create  b dark green title": {
+    "prefix": "bgreend",
+    "body": ["<b class=\"c-green--d\">$1</b>"],
+    "description": "Creates title"
+  },
+  "create  b light green title": {
+    "prefix": "bgreenl",
+    "body": ["<b class=\"c-green--l\">$1</b>"],
+    "description": "Creates title"
+  },
+  "create  b dark purple title": {
+    "prefix": "bpurpled",
+    "body": ["<b class=\"c-purple--d\">$1</b>"],
+    "description": "Creates title"
+  },
+  "create  b light purple title": {
+    "prefix": "bpurplel",
+    "body": ["<b class=\"c-purple--l\">$1</b>"],
+    "description": "Creates title"
+  },
+  "create b  pink title": {
+    "prefix": "bpink",
+    "body": ["<b class=\"c-pink\">$1</b>"],
+    "description": "Creates title"
+  },
+  "create  b red title": {
+    "prefix": "bred",
+    "body": ["<b class=\"c-red\">$1</b>"],
+    "description": "Creates title"
+  },
+  "create  b white title": {
+    "prefix": "bwhite",
+    "body": ["<b class=\"c-white\">$1</b>"],
+    "description": "Creates title"
+  },
+  "create  b gray title": {
+    "prefix": "bgray",
+    "body": ["<b class=\"c-gray\">$1</b>"],
+    "description": "Creates title"
+  },
+  "create b  brown title": {
+    "prefix": "bbrown",
+    "body": ["<b class=\"c-brown\">$1</b>"],
+    "description": "Creates title"
+  },
+  "create  b orange title": {
+    "prefix": "borange",
+    "body": ["<b class=\"c-orange\">$1</b>"],
+    "description": "Creates title"
+  },
+  "create  b yellow title": {
+    "prefix": "byellow",
+    "body": ["<b class=\"c-yellow\">$1</b>"],
+    "description": "Creates title"
+  },
+  "create  b teal title": {
+    "prefix": "bteal",
+    "body": ["<b class=\"c-teal\">$1</b>"],
+    "description": "Creates title"
+  },
+  "create  b cyan title": {
+    "prefix": "bcyan",
+    "body": ["<b class=\"c-cyan\">$1</b>"],
+    "description": "Creates title"
+  },
+  "create span dark blue title": {
+    "prefix": "highlblued",
+    "body": ["<span class=\"bg-blue--d\">$1</span>"],
+    "description": "Creates title"
+  },
+  "create span light blue title": {
+    "prefix": "highlbluel",
+    "body": ["<span class=\"bg-blue--l\">$1</span>"],
+    "description": "Creates title"
+  },
+  "create  span dark green title": {
+    "prefix": "highlgreend",
+    "body": ["<span class=\"bg-green--d\">$1</span>"],
+    "description": "Creates title"
+  },
+  "create  span light green title": {
+    "prefix": "highlgreenl",
+    "body": ["<span class=\"bg-green--l\">$1</span>"],
+    "description": "Creates title"
+  },
+  "create  span dark purple title": {
+    "prefix": "highlpurpled",
+    "body": ["<span class=\"bg-purple--d\">$1</span>"],
+    "description": "Creates title"
+  },
+  "create  span light purple title": {
+    "prefix": "highlpurplel",
+    "body": ["<span class=\"bg-purple--l\">$1</span>"],
+    "description": "Creates title"
+  },
+  "create span  pink title": {
+    "prefix": "highlpink",
+    "body": ["<span class=\"bg-pink\">$1</span>"],
+    "description": "Creates title"
+  },
+  "create  span red title": {
+    "prefix": "highlred",
+    "body": ["<span class=\"bg-red\">$1</span>"],
+    "description": "Creates title"
+  },
+  "create  span white title": {
+    "prefix": "highlwhite",
+    "body": ["<span class=\"bg-white\">$1</span>"],
+    "description": "Creates title"
+  },
+  "create  span gray title": {
+    "prefix": "highlgray",
+    "body": ["<span class=\"bg-gray\">$1</span>"],
+    "description": "Creates title"
+  },
+  "create span  brown title": {
+    "prefix": "highlbrown",
+    "body": ["<span class=\"bg-brown\">$1</span>"],
+    "description": "Creates title"
+  },
+  "create  span orange title": {
+    "prefix": "highlorange",
+    "body": ["<span class=\"bg-orange\">$1</span>"],
+    "description": "Creates title"
+  },
+  "create  span yellow title": {
+    "prefix": "highlyellow",
+    "body": ["<span class=\"bg-yellow\">$1</span>"],
+    "description": "Creates title"
+  },
+  "create  span teal title": {
+    "prefix": "highlteal",
+    "body": ["<span class=\"bg-teal\">$1</span>"],
+    "description": "Creates title"
+  },
+  "create  span cyan title": {
+    "prefix": "highlcyan",
+    "body": ["<span class=\"bg-cyan\">$1</span>"],
+    "description": "Creates title"
+  },
+  "creates source reference": {
+    "prefix": "sourceref",
+    "body": [
+      "<b class=\"c-pink\">{$1}</b>",
+      "<p><b class=\"c-pink\">{$2}</b> $3</p>"
+    ],
+    "description": "Creates source reference"
+  },
+
+  "creates bible reference": {
+    "prefix": "bibleref",
+    "body": ["<b class=\"c-green--d\">($1 $2:$3)</b>"],
+    "description": "Creates source reference"
+  },
+  "creates sm spacer": {
+    "prefix": "spacersm",
+    "body": ["<div class=\"spacer--sm\"></div>"],
+    "description": "Creates source reference"
+  },
+  "creates md spacer": {
+    "prefix": "spacermd",
+    "body": ["<div class=\"spacer--md\"></div>"],
+    "description": "Creates source reference"
+  },
+  "creates lg spacer": {
+    "prefix": "spacerlg",
+    "body": ["<div class=\"spacer--lg\"></div>"],
+    "description": "Creates source reference"
+  },
+  "creates header el": {
+    "prefix": "elheader",
+    "body": [
+      "<header><divclass=\"smoothd-flexalign-items-centerjustify-content-endpt-1\"><i><h6>Matthew1:1</h6></i></div><divclass=\"emojid-flexalign-items-centerjustify-content-center\"><imgsrc=\"./emoji.png\"alt=\"postemoji\"/></div><imgsrc=\"./header.jpg\"alt=\"postthumbnail\"/></header>"
+    ],
+    "description": "Creates header element"
+  },
+  "creates styles el": {
+    "prefix": "elstyles",
+    "body": [
+      " <style>@import url(\"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap\");      /* general */      html {        font-size: 10px;      }      body {        overflow-x: hidden;        background-color: #f2f2f2;      }      body,      body * {        color: #474647;        margin: 0;        padding: 0;        line-height: 1.8;        font-size: 1.8rem;        font-family: \"Poppins\", sans-serif;        font-weight: 200;      }      main {        width: 90%;        margin: 0 auto;        max-width: 100rem;      }      @media (max-width: 750px) {        main {          max-width: 65rem;        }      }      b {        font-size: 1.9rem;        font-family: \"Poppins\", sans-serif;        font-weight: 500;      }      i {        font-style: italic;      }      h1,      h2,      h3,      h4,      h5,      h6 {        line-height: 1;        font-family: \"Poppins\", sans-serif;        margin-bottom: 1.5rem;        font-weight: 700;      }      h1 {        font-size: 4rem;      }      h2 {        font-size: 3.5rem;      }      h3 {        font-size: 3rem;      }      h4 {        font-weight: 500;        font-size: 2.5rem;        margin-bottom: 1rem;      }      h5 {        font-weight: 500;        font-size: 2.3rem;        margin-bottom: 1rem;      }      h6 {        font-weight: 500;        font-size: 2rem;        margin-bottom: 1rem;      }      @media (max-width: 750px) {        h1 {          font-size: 3rem;        }        h2 {          font-size: 2.8rem;        }        h3 {          font-size: 2.6rem;        }        h4 {          font-size: 2.4rem;        }        h5 {          font-size: 2.2rem;        }        h6 {          font-size: 2rem;        }      }      /* colors */      .c-blue--d {        color: #809bce;      }      .c-blue--l {        color: #a2d2ff;      }      .c-green--d {        color: #08ac75;      }      .c-green--l {        color: #92d093;      }      .c-purple--d {        color: #bdb2ff;      }      .c-purple--l {        color: #dee2ff;      }      .c-red {        color: #ef798a;      }      .c-pink {        color: #f28db9;      }      .c-black {        color: #474647;      }      .c-white {        color: #edf6f9;      }      .c-gray {        color: #a8a7a0;      }      .c-brown {        color: #bf8276;      }      .c-orange {        color: #fc9b8a;      }      .c-yellow {        color: #fcf6bd;      }      .c-teal {        color: #83c5be;      }      .c-cyan {        color: #b8fbff;      }      /* backgrounds */      .bg-blue--d {        padding: 0.3rem 0.5rem;        border-radius: 3px;        background-color: #809bce99;      }      .bg-blue--l {        padding: 0.3rem 0.5rem;        border-radius: 3px;        background-color: #a2d2ff99;      }      .bg-green--d {        padding: 0.3rem 0.5rem;        border-radius: 3px;        background-color: #08ac7599;      }      .bg-green--l {        padding: 0.3rem 0.5rem;        border-radius: 3px;        background-color: #baf2bb99;      }      .bg-purple--d {        padding: 0.3rem 0.5rem;        border-radius: 3px;        background-color: #bdb2ff99;      }      .bg-purple--l {        padding: 0.3rem 0.5rem;        border-radius: 3px;        background-color: #dee2ff99;      }      .bg-red {        padding: 0.3rem 0.5rem;        border-radius: 3px;        background-color: #ef798a99;      }      .bg-pink {        padding: 0.3rem 0.5rem;        border-radius: 3px;        background-color: #f28db999;      }      .bg-black {        padding: 0.3rem 0.5rem;        border-radius: 3px;        background-color: #47464799;      }      .bg-white {        padding: 0.3rem 0.5rem;        border-radius: 3px;        color: #edf6f999;      }      .bg-gray {        padding: 0.3rem 0.5rem;        border-radius: 3px;        background-color: #a8a7a099;      }      .bg-brown {        padding: 0.3rem 0.5rem;        border-radius: 3px;        background-color: #bf827699;      }      .bg-orange {        padding: 0.3rem 0.5rem;        border-radius: 3px;        background-color: #fc9b8a99;      }      .bg-yellow {        padding: 0.3rem 0.5rem;        border-radius: 3px;        background-color: #fcf6bd;      }      .bg-teal {        padding: 0.3rem 0.5rem;        border-radius: 3px;        background-color: #83c5be99;      }      .bg-cyan {        padding: 0.3rem 0.5rem;        border-radius: 3px;        background-color: #b8fbff99;      }      /* utilities */      .spacer--sm {        width: 100%;        height: 1.5rem;      }      .spacer--md {        width: 100%;        height: 2.5rem;      }      .spacer--lg {        width: 100%;        height: 3rem;      }      .d-flex {        display: flex;      }      .d-block {        display: block;      }      .d-inline-flex {        display: inline-flex;      }      .align-items-center {        align-items: center;      }      .align-items-start {        align-items: flex-start;      }      .align-items-end {        align-items: flex-end;      }      .justify-content-center{        justify-content: center;      }      .justify-content-start {        justify-content: flex-start;      }      .justify-content-end {        justify-content: flex-end;      }      .justify-content-between {        justify-content: space-between;      }      .justify-content-around {        justify-content: space-around;      }      .justify-content-evenly {        justify-content: space-evenly;      }      .float-left {        float: left;        margin-right: 20px;      }      .p-0_5 {        padding: 0.5rem;      }      .p-1 {        padding: 1rem;      }      .p-2 {        padding: 2rem;      }      .p-3 {        padding: 3rem;      }      .px-0_5 {        padding: 0 0.5rem 0 0.5rem;      }      .px-1 {        padding: 0 1rem 0 1rem;      }      .px-2 {        padding: 0 2rem 0 2rem;      }      .px-3 {        padding: 0 3rem 0 3rem;      }      .pt-0_5 {        padding: 0.5rem 0 0 0;      }      .pt-1 {        padding: 1rem 0 0 0;      }      .pt-2 {        padding: 2rem 0 0 0;      }      .pt-3 {        padding: 3rem;        padding: 0 3rem 0 3rem;      }      .pb-0_5 {        padding: 0 0 0.5rem 0;      }      .pb-1 {        padding: 0 0 1rem 0;      }      .pb-2 {        padding: 0 0 2rem 0;      }      .pb-3 {        padding: 3rem;        padding: 0 0 3rem 0;      }      .m-0_5 {        margin: 0.5rem;      }      .m-1 {        margin: 1rem;      }      .m-2 {        margin: 2rem;      }      .m-3 {        margin: 3rem;      }      .mx-0_5 {        margin: 0 0.5rem 0 0.5rem;      }      .mx-1 {        margin: 0 1rem 0 1rem;      }      .mx-2 {        margin: 0 2rem 0 2rem;      }      .mx-3 {        margin: 0 3rem 0 3rem;      }      @media (max-width: 750px) {        .float-right {          float: none;          margin: 0 20px 0 0;        }      }      .float-right {        float: right;        margin-left: 20px;      }      @media (max-width: 750px) {        .float-right {          float: none;          margin: 0 20px 0 0;        }      }      .round-corners {        border-radius: 0.5em;      }      /* header */      header {        position: relative;        width: 100vw;        height: 30rem;      }      @media print {        header {          overflow: hidden;          border-radius: 1rem;        }      }      header img {        width: 100%;        height: 30rem;        overflow: hidden;        object-fit: cover;        object-position: top center;        position: absolute;        z-index: 1;        top: 0;        left: 0;      }      header .smooth {        position: absolute;        height: 5rem;        width: 100vw;        bottom: 0;        left: 0;        background-color: #f2f2f2;        border-top-left-radius: 1.5em;        border-top-right-radius: 1.5em;        z-index: 2;      }      header .emoji {        width: 10rem;        height: 10rem;        border-radius: 50%;        border: 2px solid #474647;        position: absolute;        z-index: 3;        background-color: #f2f2f2;        bottom: 0rem;        left: 5rem;      }      .emoji img {        position: relative;        width: 8rem;        height: 8rem;        margin: 0;        object-fit: contain;        object-position: center;      }   @media (print) {        header .emoji img{        width: 5rem;          height: 5rem;        }      }      header .smooth h6 {        margin-right: 5rem;      }      @media (max-width: 750px) {        header .emoji {          bottom: 2rem;          width: 7rem;          height: 7rem;          left: 3rem;        }        .emoji img {          width: 5rem;          height: 5rem;        }      }      @media print {        header,        header * {          padding: 0;          margin: 0;        }        header .smooth {          display: none;        }      }      /* references */      .references p{      margin-bottom: 1rem;      padding: .5rem 1rem;      background-color: #eae2d1;      border-radius: .5em;      }      .bibliography li{                  list-style: none;      }      .bibliography li::before {        content: '';        display: inline-block;        height: 1.5rem;        width: 1.5rem;        background-image: url(./list_decor.png);        background-position: center;        background-size: contain;      }      /* footer */      footer{        margin: 3rem 0 0;        height: 3rem;        background-color: #474647;        display: flex;        align-items: center;        justify-content: center;      }      footer span {      color: #f2f2f2;      font-weight: 600;      }    </style>"
+    ],
+    "description": "Creates styles element"
+  }
+}

@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthew 1:1</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap");
+      /* general */
+      html {
+        font-size: 10px;
+      }
+      body {
+        overflow-x: hidden;
+        background-color: #f2f2f2;
+      }
+      body,
+      body * {
+        color: #474647;
+        margin: 0;
+        padding: 0;
+        line-height: 1.8;
+        font-size: 1.8rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+      }
+      main {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 100rem;
+      }
+      @media (max-width: 750px) {
+        main {
+          max-width: 65rem;
+        }
+      }
+      b {
+        font-size: 1.9rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+      }
+      i {
+        font-style: italic;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        line-height: 1;
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 1.5rem;
+        font-weight: 700;
+      }
+      h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        font-size: 3.5rem;
+      }
+      h3 {
+        font-size: 3rem;
+      }
+      h4 {
+        font-weight: 500;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+      h5 {
+        font-weight: 500;
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+      }
+      h6 {
+        font-weight: 500;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+      @media (max-width: 750px) {
+        h1 {
+          font-size: 3rem;
+        }
+        h2 {
+          font-size: 2.8rem;
+        }
+        h3 {
+          font-size: 2.6rem;
+        }
+        h4 {
+          font-size: 2.4rem;
+        }
+        h5 {
+          font-size: 2.2rem;
+        }
+        h6 {
+          font-size: 2rem;
+        }
+      } /* colors */
+      .c-blue--d {
+        color: #809bce;
+      }
+      .c-blue--l {
+        color: #a2d2ff;
+      }
+      .c-green--d {
+        color: #08ac75;
+      }
+      .c-green--l {
+        color: #92d093;
+      }
+      .c-purple--d {
+        color: #bdb2ff;
+      }
+      .c-purple--l {
+        color: #dee2ff;
+      }
+      .c-red {
+        color: #ef798a;
+      }
+      .c-pink {
+        color: #f28db9;
+      }
+      .c-black {
+        color: #474647;
+      }
+      .c-white {
+        color: #edf6f9;
+      }
+      .c-gray {
+        color: #a8a7a0;
+      }
+      .c-brown {
+        color: #bf8276;
+      }
+      .c-orange {
+        color: #fc9b8a;
+      }
+      .c-yellow {
+        color: #fcf6bd;
+      }
+      .c-teal {
+        color: #83c5be;
+      }
+      .c-cyan {
+        color: #b8fbff;
+      } /* backgrounds */
+      .bg-blue--d {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #809bce99;
+      }
+      .bg-blue--l {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #a2d2ff99;
+      }
+      .bg-green--d {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #08ac7599;
+      }
+      .bg-green--l {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #baf2bb99;
+      }
+      .bg-purple--d {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #bdb2ff99;
+      }
+      .bg-purple--l {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #dee2ff99;
+      }
+      .bg-red {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #ef798a99;
+      }
+      .bg-pink {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #f28db999;
+      }
+      .bg-black {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #47464799;
+      }
+      .bg-white {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        color: #edf6f999;
+      }
+      .bg-gray {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #a8a7a099;
+      }
+      .bg-brown {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #bf827699;
+      }
+      .bg-orange {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #fc9b8a99;
+      }
+      .bg-yellow {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #fcf6bd;
+      }
+      .bg-teal {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #83c5be99;
+      }
+      .bg-cyan {
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        background-color: #b8fbff99;
+      } /* utilities */
+      .spacer--sm {
+        width: 100%;
+        height: 1.5rem;
+      }
+      .spacer--md {
+        width: 100%;
+        height: 2.5rem;
+      }
+      .spacer--lg {
+        width: 100%;
+        height: 3rem;
+      }
+      .d-flex {
+        display: flex;
+      }
+      .d-block {
+        display: block;
+      }
+      .d-inline-flex {
+        display: inline-flex;
+      }
+      .align-items-center {
+        align-items: center;
+      }
+      .align-items-start {
+        align-items: flex-start;
+      }
+      .align-items-end {
+        align-items: flex-end;
+      }
+      .justify-content-center {
+        justify-content: center;
+      }
+      .justify-content-start {
+        justify-content: flex-start;
+      }
+      .justify-content-end {
+        justify-content: flex-end;
+      }
+      .justify-content-between {
+        justify-content: space-between;
+      }
+      .justify-content-around {
+        justify-content: space-around;
+      }
+      .justify-content-evenly {
+        justify-content: space-evenly;
+      }
+      .float-left {
+        float: left;
+        margin-right: 20px;
+      }
+      .p-0_5 {
+        padding: 0.5rem;
+      }
+      .p-1 {
+        padding: 1rem;
+      }
+      .p-2 {
+        padding: 2rem;
+      }
+      .p-3 {
+        padding: 3rem;
+      }
+      .px-0_5 {
+        padding: 0 0.5rem 0 0.5rem;
+      }
+      .px-1 {
+        padding: 0 1rem 0 1rem;
+      }
+      .px-2 {
+        padding: 0 2rem 0 2rem;
+      }
+      .px-3 {
+        padding: 0 3rem 0 3rem;
+      }
+      .pt-0_5 {
+        padding: 0.5rem 0 0 0;
+      }
+      .pt-1 {
+        padding: 1rem 0 0 0;
+      }
+      .pt-2 {
+        padding: 2rem 0 0 0;
+      }
+      .pt-3 {
+        padding: 3rem;
+        padding: 0 3rem 0 3rem;
+      }
+      .pb-0_5 {
+        padding: 0 0 0.5rem 0;
+      }
+      .pb-1 {
+        padding: 0 0 1rem 0;
+      }
+      .pb-2 {
+        padding: 0 0 2rem 0;
+      }
+      .pb-3 {
+        padding: 3rem;
+        padding: 0 0 3rem 0;
+      }
+      .m-0_5 {
+        margin: 0.5rem;
+      }
+      .m-1 {
+        margin: 1rem;
+      }
+      .m-2 {
+        margin: 2rem;
+      }
+      .m-3 {
+        margin: 3rem;
+      }
+      .mx-0_5 {
+        margin: 0 0.5rem 0 0.5rem;
+      }
+      .mx-1 {
+        margin: 0 1rem 0 1rem;
+      }
+      .mx-2 {
+        margin: 0 2rem 0 2rem;
+      }
+      .mx-3 {
+        margin: 0 3rem 0 3rem;
+      }
+      @media (max-width: 750px) {
+        .float-right {
+          float: none;
+          margin: 0 20px 0 0;
+        }
+      }
+      .float-right {
+        float: right;
+        margin-left: 20px;
+      }
+      @media (max-width: 750px) {
+        .float-right {
+          float: none;
+          margin: 0 20px 0 0;
+        }
+      }
+      .round-corners {
+        border-radius: 0.5em;
+      } /* header */
+      header {
+        position: relative;
+        width: 100vw;
+        height: 30rem;
+      }
+      @media print {
+        header {
+          overflow: hidden;
+          border-radius: 1rem;
+        }
+      }
+      header img {
+        width: 100%;
+        height: 30rem;
+        overflow: hidden;
+        object-fit: cover;
+        object-position: top center;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+      }
+      header .smooth {
+        position: absolute;
+        height: 5rem;
+        width: 100vw;
+        bottom: 0;
+        left: 0;
+        background-color: #f2f2f2;
+        border-top-left-radius: 1.5em;
+        border-top-right-radius: 1.5em;
+        z-index: 2;
+      }
+      header .emoji {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        border: 2px solid #474647;
+        position: absolute;
+        z-index: 3;
+        background-color: #f2f2f2;
+        bottom: 0rem;
+        left: 5rem;
+      }
+      .emoji img {
+        position: relative;
+        width: 8rem;
+        height: 8rem;
+        margin: 0;
+        object-fit: contain;
+        object-position: center;
+      }
+      @media (print) {
+        header .emoji img {
+          width: 5rem;
+          height: 5rem;
+        }
+      }
+      header .smooth h6 {
+        margin-right: 5rem;
+      }
+      @media (max-width: 750px) {
+        header .emoji {
+          bottom: 2rem;
+          width: 7rem;
+          height: 7rem;
+          left: 3rem;
+        }
+        .emoji img {
+          width: 5rem;
+          height: 5rem;
+        }
+      }
+      @media print {
+        header,
+        header * {
+          padding: 0;
+          margin: 0;
+        }
+        header .smooth {
+          display: none;
+        }
+      } /* references */
+      .references p {
+        margin-bottom: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: #eae2d1;
+        border-radius: 0.5em;
+      }
+      .bibliography li {
+        list-style: none;
+      }
+      .bibliography li::before {
+        content: "";
+        display: inline-block;
+        height: 1.5rem;
+        width: 1.5rem;
+        background-image: url(./list_decor.png);
+        background-position: center;
+        background-size: contain;
+      } /* footer */
+      footer {
+        margin: 3rem 0 0;
+        height: 3rem;
+        background-color: #474647;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      footer span {
+        color: #f2f2f2;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="smooth d-flex align-items-center justify-content-end pt-1">
+        <i><h6>Matthew 1:2</h6></i>
+      </div>
+      <div class="emoji d-flex align-items-center justify-content-center">
+        <img src="./emoji.png" alt="post emoji" />
+      </div>
+      <img src="./header.jpg" alt="post thumbnail" />
+    </header>
+    <main>
+      <div class="spacer--lg"></div>
+      <h3 class="c-blue--d">History cal Background</h3>
+      <div class="spacer--md"></div>
+      <p>
+        Once being acquainted with the comment on verse one, we can agree that
+        these Magi chose the worst possible title of the Messiah to break the
+        news to herod: <b>βασιλεὺς τῶν Ἰουδαίων</b> <b>("king of the Jews.")</b>
+      </p>
+      <div class="spacer--md"></div>
+      <p>
+        His entire life Herod has been fighting for recognition from the Jews
+        not only as their king, but also as a Jew. He has achieved the first but
+        he has not had the same luck withe the second one. In fact they never
+        will come to recognize him as a Jew <b class="c-pink">{1}</b>. <br />Now
+        he has to face reality. His greatest fear has come true: the
+        <b> Jew of Jews</b> has been born. Someone from the lineage of David
+        with all the rights to the throne and long-awaited by all Jews. This
+        Messiah is supposed to be the greatest political figure and war general
+        <b class="c-pink">{2}</b> who would finally overthrow the yoke of the
+        Romans and reestablish David's Kingdom in Jerusalem.
+        <b class="c-green--d"
+          >(2samuel 7:12-13; 1 Chronicles 17:10-14; Isaiah 2:1-4; Isaiah 16:5;
+          Daniel 2:44; Daniel 7:27; Mica 41-5; Jeremiah 23:51)</b
+        >. We can only imagine the fear and anxiety that took Herod when hearing
+        the news.
+      </p>
+      <div class="spacer--md"></div>
+      <p>
+        it is important to note that the tile <b> "king of the Jews"</b> will
+        never be used in a genuine way in the rest of the Gospels by a Jew, and
+        perhaps by a gentile either, since the only other person who might be
+        argued to use it genuinely is Pilate, and it is hard to conclude whether
+        he presented Him as <b>king of the Jews</b> in a mocking way or whether
+        he was actually serious
+        <b class="c-green--d">(John 19:19; John 19:14; John 18:39)</b>.
+      </p>
+      <div class="spacer--md"></div>
+      <p>
+        However, even if we give Pilate the benefit of doubt and take the
+        position that he was indeed being genuine, he would have been the only
+        other individual in the pages of the Gospels using the term in a serious
+        manner. Therefore, out of the
+        <span class="bg-purple--d">(at least) 15 times</span> that
+        <b>King of the Jews</b> appears in the Bible only
+        <span class="bg-purple--d">2 times </span
+        ><b class="c-green--d">(John 19:21; Luke 23:37)</b> is used by Jews. All
+        other <span class="bg-purple--d"> 13 times is used by gentiles</span>.
+        Every time the title is used by the Jews is used as a sign of mockery or
+        disdain, and only 1 of 13 times used by a gentile we can be sure is used
+        seriously <b class="c-green--d">(Matthew 2:2)</b>.
+      </p>
+      <p>
+        When Jesus is referred to as King in a serious manner by a Jew, the more
+        common Jewish term <b>"king of Israel"</b> is used
+        <b class="c-green--d">(Matthew 27:42; Mark 15:32)</b>. Therefore we see
+        this title occurring on many occasions but only during two events of His
+        life: <b>His birth and His death</b>. An even more interesting detail is
+        that these Magi did not come to see just a baby who would one day become
+        King of the Jews, but one who
+        <b>τεχθεὶς (was born) king of the Jews</b>. Nobody is born a king. A
+        newborn might come to this world as an heir to his father's, throne, but
+        not as an already established king. For the firs time in the history of
+        the world, a baby was born a king, or better said the King, and the Magi
+        knew this.
+      </p>
+      <div class="spacer--md"></div>
+      <p>
+        He was born <b> king of the Jews</b> because this was
+        <span class="bg-orange">Jehovah</span> of the Old Testament, who was
+        coming into the world but not into existence. <br />Before laying in a
+        manger, He already sat on a throne
+        <b class="c-green--d">(psalm to 3:19)</b>. Before he was surrounded by a
+        group of Magi, He already was surrounded by a host of angels
+        <b class="c-green--d">1 Kings 22:19</b>. Before He was wrapped in
+        swaddling clothes, His robe already filled the Temple
+        <b class="c-green--d"> (Isaiah 66:1)</b>. Before Magi loaded donkeys and
+        camels with gold and traveled across sandy roads, He was already making
+        highways, bridges, and foundations with it
+        <b class="c-green--d">(Revelation 21:21)</b>. Before the Magi discovered
+        the constellations in the sky He was already walking over them.
+        <b class="c-green--d">(Amos 4:13)</b>
+      </p>
+      <div class="spacer--md"></div>
+      <p>
+        The revelation of the Magi went far beyond the fact that He was a king,
+        they knew He was the King. Because He was born king, He hung on the
+        cross as King. Because He was born King Pilate had to write: I have
+        written what I have written <b class="c-green--d">(John 19:22)</b>
+      </p>
+
+      <div class="spacer--lg"></div>
+      <!-- sources -->
+      <h3 class="c-red">References</h3>
+      <div class="references">
+        <p>
+          <b class="c-pink">{1}</b> Vermes, Geza. The True Herod. London: T&T
+          Clark 2014, page 29
+        </p>
+        <p>
+          <b class="c-pink">{2}</b> Evans, Craig A.. Matthew. United
+          Kingdom: Cambridge University Press, 2012.
+        </p>
+      </div>
+
+      <div class="spacer--lg"></div>
+      <!-- bibliography -->
+      <h3 class="c-red">Bibliography</h3>
+      <ul class="bibliography">
+        <li>Vermes, Geza. The True Herod. London: T&T Clark 2014</li>
+        <li>
+          CRAIG A. EVANS. Matthew. New York: Cambridge University Press, 2012.
+          Disponível em:
+          https://discovery.ebsco.com/linkprocessor/plink?id=4aada97c-1a59-3dbe-a861-66122d15b9ae.
+          Acesso em: 16 out. 2022.
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
