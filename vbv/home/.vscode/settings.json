@@ -1,5 +1,8 @@
 {
   "workbench.colorTheme": "Material Theme Lighter",
 
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "html.format.extraLiners": "html, body, head, div, p"
 }
