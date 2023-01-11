@@ -460,14 +460,16 @@
           display: none;
         }
       } /* references */
-      .references p {
+      .references p,
+      .bibliography ul li {
         margin-bottom: 1rem;
         padding: 0.5rem 1rem;
         background-color: #eae2d1;
         border-radius: 0.5em;
       }
-      .bibliography li {
+      .bibliography ul li {
         list-style: none;
+        background-color: #d1dde6;
       }
       .bibliography li::before {
         content: "";
@@ -499,6 +501,37 @@
         color: #f2f2f2;
         font-weight: 600;
       }
+
+      .body-img {
+        width: 100%;
+        border-radius: 1rem;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .quotation {
+        padding: 1rem 1rem 1rem 3rem;
+        border-radius: 1rem;
+        background-color: #e9ebee;
+      }
+
+      .quotation * {
+        display: block;
+        color: gray;
+      }
+
+      .quotation h5 {
+        margin: 2rem 0 0 0;
+      }
+
+      .quote-icon {
+        rotate: 180deg;
+        width: 2em;
+        height: 2em;
+        background-image: url("./quote.svg");
+        background-position: center;
+        background-size: contain;
+      }
     </style>
   </head>
   <body>
@@ -513,9 +546,14 @@
     </header>
     <main>
       <div class="spacer--lg"></div>
-      <h3 class="c-blue--d">Contextual Background</h3>
+      <h2 class="c-blue--d">Contextual Background</h2>
       <div class="spacer--md"></div>
-      <h4>King of the Jews</h4>
+      <h3 class="c-red">King of the Jews</h3>
+      <img
+        src="./assets/crown.jpg"
+        alt="Night sky full of stars"
+        class="body-img"
+      />
       <p>
         Once being acquainted with the comment on verse one, we can agree that
         these Magi chose the worst possible title of the Messiah to break the
@@ -604,7 +642,12 @@
       </p>
       <div class="spacer--md"></div>
 
-      <h4>The star: what was it?</h4>
+      <h3 class="c-red">The star: what was it?</h3>
+      <img
+        src="./assets/star.jpg"
+        alt="Night sky full of stars"
+        class="body-img"
+      />
       <p>
         These great group of astrologers leave no room for doubt as to what was
         the catalyzer for their journey: a star. Nevertheless, we can deduct
@@ -619,7 +662,8 @@
       <ol class="padded-list">
         <li>
           These men were no common personalities. They were elite Persian
-          <b class="c-pink">{3}</b> or Babylonian <b class="c-pink">{4}</b>
+          <sup><b class="c-pink">3</b></sup> or Babylonian
+          <b class="c-pink">{4}</b>
           scholars who's ancestors had been studying the heavenly bodies for
           thousands of years. It is quite clear that whatever astronomy
           phenomena sent them on their journey was not something small or
@@ -1054,82 +1098,132 @@
       <h3 class="c-red">References</h3>
       <div class="references">
         <p>
-          <b class="c-pink">{1}</b> Vermes, Geza. The True Herod. London: T&T
-          Clark 2014, page 29
+          <b class="c-pink">{1}</b> Geza Vermes, <i>The True Herod,</i> (London:
+          T&T Clark, 2014), 29.
         </p>
         <p>
-          <b class="c-pink">{2}</b> Evans, Craig A.. Matthew. United
-          Kingdom: Cambridge University Press, 2012.
+          <b class="c-pink">{2}</b> Craig A. Evans, <i>Matthew,</i> (United
+          Kingdom: Cambridge University Press, 2012).
+          https://discovery.ebsco.com/linkprocessor/plink?id=4aada97c-1a59-3dbe-a861-66122d15b9ae.
         </p>
         <p>
-          <b class="c-pink">{3}</b> Upham, Francis William. The Wise Men: who
-          They Were and how They Came to Jerusalem. United States: Eaton &
-          Mains, 1901. page 2
+          <b class="c-pink">{3}</b> Francis William Upham,
+          <i>The Wise Men: who They Were and how They Came to Jerusalem,</i>
+          (United States: Eaton & Mains, 1901), 2.
         </p>
         <p>
-          <b class="c-pink">{4}</b> Kidger, Mark Richard. The Star of Bethlehem:
-          An Astronomer's View. United Kingdom: Princeton University Press,
-          1999. 29
+          <b class="c-pink">{4}</b> Mark Richard Kidger,
+          <i>The Star of Bethlehem: An Astronomer's View,</i> (United Kingdom:
+          Princeton University Press, 1999) 29.
         </p>
-        <p><b class="c-pink">{5}</b> Kidger, 1999 p. 30</p>
-        <p><b class="c-pink">{6}</b> Kidger, 1999 p. 77</p>
-        <p><b class="c-pink">{7}</b> Kidger, 1999 p. 77</p>
+        <p>
+          <b class="c-pink">{5}</b> Kidger,
+          <i>The Star of Bethlehem: An Astronomer's View,</i> 30.
+        </p>
+        <p>
+          <b class="c-pink">{6}</b> Kidger,
+          <i>The Star of Bethlehem: An Astronomer's View,</i> 77.
+        </p>
+        <p>
+          <b class="c-pink">{7}</b> Kidger,
+          <i>The Star of Bethlehem: An Astronomer's View,</i> 77.
+        </p>
         <p>
           <b class="c-pink">{8}</b>
-          Hislop, Alexander. The Two Babylons. United States: Cosimo,
-          Incorporated, 2009. p. 75
+          Hislop, Alexander. <i>The Two Babylons,</i> United States: Cosimo,
+          Incorporated, 2009. p. 75.
         </p>
-        <p><b class="c-pink">{9}</b> Kidger 1999, p. 75</p>
-        <p><b class="c-pink">{10}</b> Kidger, 1999 p.86</p>
-        <p><b class="c-pink">{11}</b> Kidger, 1999 p.87</p>
-        <p><b class="c-pink">{12}</b> Kidger, 1999 p.115</p>
-        <p><b class="c-pink">{13}</b> Kidger, 1999 p139</p>
-        <p><b class="c-pink">{14}</b> Kidger, 1999 p. 199</p>
+        <p>
+          <b class="c-pink">{9}</b> Kidger,
+          <i>The Star of Bethlehem: An Astronomer's View,</i> 75.
+        </p>
+        <p>
+          <b class="c-pink">{10}</b> Kidger,
+          <i>The Star of Bethlehem: An Astronomer's View,</i> 86.
+        </p>
+        <p>
+          <b class="c-pink">{11}</b> Kidger,
+          <i>The Star of Bethlehem: An Astronomer's View,</i> 87.
+        </p>
+        <p>
+          <b class="c-pink">{12}</b> Kidger,
+          <i>The Star of Bethlehem: An Astronomer's View,</i> 115.
+        </p>
+        <p>
+          <b class="c-pink">{13}</b> Kidger,
+          <i>The Star of Bethlehem: An Astronomer's View,</i> 139.
+        </p>
+        <p>
+          <b class="c-pink">{14}</b> Kidger,
+          <i>The Star of Bethlehem: An Astronomer's View,</i> 199.
+        </p>
         <p>
           <b class="c-pink">{15}</b> Hoffman, Susanne H. “Star of Bethlehem: How
-          to Tell the Astronomy Correctly.” Planetarian 50, no. 3 (September
-          2021): 8.
+          to Tell the Astronomy Correctly.” <i>Planetarian</i> 50, no. 3.
+          (September 2021): 8.
           https://search-ebscohost-com.ezproxy.biola.edu/login.aspx?direct=true&db=aph&AN=155672286&site=eds-live&scope=site.
         </p>
-        <p><b class="c-pink">{16}</b> Hoffer, 2021 p. 8</p>
-        <p><b class="c-pink">{17}</b>Kidger, 1999 p. 253</p>
-        <p><b class="c-pink">{18}</b> Hoffman, 2021 p. 8</p>
-        <p><b class="c-pink">{19}</b> Kidger 1999, p. 256</p>
         <p>
-          <b class="c-pink">{20}</b> Jenkins, R.M. “The Star of Bethlehem and
-          the Comet of AD 66.” Journal of the British Astronomical Association
-          114, no. 6 (December 2004): 336–42.
+          <b class="c-pink">{16}</b> Hoffman, “Star of Bethlehem: How to Tell
+          the Astronomy Correctly,” 8.
+        </p>
+        <p>
+          <b class="c-pink">{17}</b>Kidger,
+          <i>The Star of Bethlehem: An Astronomer's View,</i> 253
+        </p>
+        <p>
+          <b class="c-pink">{18}</b> Hoffman, “Star of Bethlehem: How to Tell
+          the Astronomy Correctly,” 8
+        </p>
+        <p>
+          <b class="c-pink">{19}</b> Kidger
+          <i>The Star of Bethlehem: An Astronomer's View,</i> 256
+        </p>
+        <p>
+          <b class="c-pink">{20}</b> R. M. Jenkins “The Star of Bethlehem and
+          the Comet of AD 66.”
+          <i>Journal of the British Astronomical Association</i>
+          114, no. 6 (December 2004): 339.
           https://search-ebscohost-com.ezproxy.biola.edu/login.aspx?direct=true&db=aph&AN=15203892&site=eds-live&scope=site.
         </p>
-        <p><b class="c-pink">{21}</b> Jenkins 2004, p. 339</p>
+        <p>
+          <b class="c-pink">{21}</b> Jenkins, “The Star of Bethlehem and the
+          Comet of AD 66,” 339.
+        </p>
       </div>
 
       <div class="spacer--lg"></div>
       <!-- bibliography -->
       <h3 class="c-red">Bibliography</h3>
-      <ul class="bibliography">
-        <li>Vermes, Geza. The True Herod. London: T&T Clark 2014</li>
-        <li>
-          CRAIG A. EVANS. Matthew. New York: Cambridge University Press, 2012.
-          Disponível em:
-          https://discovery.ebsco.com/linkprocessor/plink?id=4aada97c-1a59-3dbe-a861-66122d15b9ae.
-          Acesso em: 16 out. 2022.
-        </li>
-        <li>
-          Kidger, Professor Mark., Kidger, Mark Richard. The Star of Bethlehem:
-          An Astronomer's View. United Kingdom: Princeton University Press,
-          1999.
-        </li>
-        <li>
-          Hislop, Alexander. The Two Babylons. United States: Cosimo,
-          Incorporated, 2009.
-        </li>
-        <li>
-          Hoffman, Susanne H. “Star of Bethlehem: How to Tell the Astronomy
-          Correctly.” Planetarian 50, no. 3 (September 2021): 8–11.
-          https://search-ebscohost-com.ezproxy.biola.edu/login.aspx?direct=true&db=aph&AN=155672286&site=eds-live&scope=site.
-        </li>
-      </ul>
+      <div class="bibliography">
+        <ul class="bibliography">
+          <li>
+            Evans, Craig A. Matthew. New York: Cambridge University Press, 2012.
+            https://discovery.ebsco.com/linkprocessor/plink?id=4aada97c-1a59-3dbe-a861-66122d15b9ae.
+          </li>
+          <li>
+            Hislop, Alexander. The Two Babylons. United States: Cosimo,
+            Incorporated, 2009.
+          </li>
+          <li>
+            Hoffman, Susanne H. “Star of Bethlehem: How to Tell the Astronomy
+            Correctly.” <i>Planetarian</i> 50, no. 3 (September 2021): 8–11.
+            http://ezproxy.biola.edu/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=aph&AN=155672286&site=eds-live&scope=site.
+          </li>
+          <li>
+            Jenkins, R. M. “The Star of Bethlehem and the Comet of AD 66.”
+            <i>Journal of the British Astronomical Association</i> 114, no. 6
+            (December 2004): 336–42.
+            http://ezproxy.biola.edu/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=aph&AN=15203892&site=eds-live&scope=site.
+          </li>
+          <li>
+            Kidger, Mark. The Star of Bethlehem: An Astronomer's View. United
+            Kingdom: Princeton University Press, 1999.
+          </li>
+
+          <li>Vermes, Geza. The True Herod. London: T&T Clark, 2014</li>
+        </ul>
+      </div>
     </main>
   </body>
 </html>
