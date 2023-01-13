@@ -610,7 +610,7 @@
 
   "creates bible reference": {
     "prefix": "bibleref",
-    "body": ["<b class=\"c-green--d\">($1 $2:$3)</b>"],
+    "body": ["<b class=\"bg-green--l\">($1 $2:$3)</b>"],
     "description": "Creates source reference"
   },
   "creates sm spacer": {
