@@ -645,7 +645,7 @@
   "creates verse lesson": {
     "prefix": "verselesson",
     "body": [
-      "<divclass=\"quotationd-flexalign-items-startjustify-content-start\"><spanclass=\"quote-icon\"></span><i><h5>WemaybeusefulinGod'shands,butneveressentialtoGod'swork</h5></i></div><divclass=\"spacer--sm\"></div>"
+      "<div class=\"quotation d-flex align-items-start justify-content-start\"><span class=\"quote-icon\"></span><i><h5>$1</h5></i></div><div class=\"spacer--sm\"></div>"
     ],
     "description": "Creates the main lesson of the verse"
   }
